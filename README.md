@@ -7,8 +7,8 @@ A tiny image compressor made with just NumPy and Pillow, using patch-based PCA a
 ```
 pip install numpy pillow
 
-python pca_codec.py compress lena.jpg lena.pca
-python pca_codec.py decompress lena.pca restored.png
+python pca.py compress lena.jpg lena.pca
+python pca.py decompress lena.pca restored.png
 ```
 
 ## How it works
